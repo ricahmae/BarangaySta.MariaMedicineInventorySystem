@@ -1,0 +1,110 @@
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Health Center Profiling System.exe.config
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Health Center Profiling System.exe
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Health Center Profiling System.pdb
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Health Center Profiling System.xml
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\aa-ER\Health Center Profiling System.resources.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\FlashControlV71.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\stdole.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.vbproj.Health Center Profiling System.exe.config
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddStock2.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Addstockdashboard.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddStockout.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.DailyReleased.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.DailyStockin.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Multiple_Stockin.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Multiplesearch.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.SearchQuick.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.StockHistory.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewExpiry.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewStocks.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Issuance.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmconnection.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.SearchMed.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ForgotPassword.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.FormLogin.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.NewPassword.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.SecurityQuestion.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Account.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.DMenu.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.InventoryMenu.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ProfileMenu.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.QuickSearch.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ReportMenu.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.SearchQ.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.SettingMenu.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.StatisticsMenu.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.HealthCenterMain.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.HealthCenterSub.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Resources.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddProfile.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditProfile.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewDescription.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewProfile.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddStock.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Stockin.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewStocksW.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddBrand.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditBrand.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewBrand.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddCompany.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditCompany.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewCompany.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddLotNumber.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditLotNumber.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewLotNumber.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditReceived.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ReceivedFrom.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewReceived.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddSubType.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddType.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditType.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewType.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddUnit.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditUnit.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewUnit.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Stat1.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Statistics.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.Expiry.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmDailyReleased.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmDailyStockin.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmExpired.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmissuance.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmprofile.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmstockinhistory.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmstockouthistory.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmtotalstockin.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.frmtotalstockout.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.IR.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AccountLogs.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.AddUserAccount.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.EditUserAccount.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.ViewUsers.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health_Center_Profiling_System.SearchQuick.aa-ER.resources
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\aa-ER\Health Center Profiling System.resources.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.exe
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.xml
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.pdb
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.TrustInfo.xml
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Health Center Profiling System.exe.manifest
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Health Center Profiling System.application
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.exe.manifest
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.application
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\obj\Debug\Health Center Profiling System.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Guna.UI.dll
+C:\Users\ASUS\Desktop\Health Center Profiling System\Health Center Profiling System\bin\Debug\Guna.UI.pdb

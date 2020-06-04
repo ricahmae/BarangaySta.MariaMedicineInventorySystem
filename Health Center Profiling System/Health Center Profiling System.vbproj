@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39EBE3BA-5273-49FF-A3A6-C30E6D3BEAC2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Health_Center_Profiling_System.My.MyApplication</StartupObject>
+    <RootNamespace>Health_Center_Profiling_System</RootNamespace>
+    <AssemblyName>Health Center Profiling System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ASUS\Desktop\installer\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Health Center Profiling System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Health Center Profiling System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>671CCE4A4E94F300E84B300F78E0852C335B496B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Health Center Profiling System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Guna.UI, Version=1.5.0.0, Culture=neutral, PublicKeyToken=537479e8cf7071a7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\Accounts.vb" />
+    <Compile Include="Controller\Connection.vb" />
+    <Compile Include="Inventory\AddStock2.Designer.vb">
+      <DependentUpon>AddStock2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AddStock2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Addstockdashboard.Designer.vb">
+      <DependentUpon>Addstockdashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Addstockdashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\AddStockout.Designer.vb">
+      <DependentUpon>AddStockout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AddStockout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventory\DailyReleased.Designer.vb">
+      <DependentUpon>DailyReleased.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\DailyReleased.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\DailyStockin.Designer.vb">
+      <DependentUpon>DailyStockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\DailyStockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\MULTIPLE\Multiple Stockin.Designer.vb">
+      <DependentUpon>Multiple Stockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\MULTIPLE\Multiple Stockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\MULTIPLE\Multiplesearch.Designer.vb">
+      <DependentUpon>Multiplesearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\MULTIPLE\Multiplesearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\SearchQuick.Designer.vb">
+      <DependentUpon>SearchQuick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\SearchQuick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\StockHistory.Designer.vb">
+      <DependentUpon>StockHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\StockHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\ViewExpiry.Designer.vb">
+      <DependentUpon>ViewExpiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\ViewExpiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issuance\ViewStocks.Designer.vb">
+      <DependentUpon>ViewStocks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Issuance\ViewStocks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issuance\Issuance.vb.Designer.vb">
+      <DependentUpon>Issuance.vb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Issuance\Issuance.vb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmconnection.Designer.vb">
+      <DependentUpon>frmconnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmconnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\SearchMed.Designer.vb">
+      <DependentUpon>SearchMed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\SearchMed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\NewPassword.Designer.vb">
+      <DependentUpon>NewPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login\NewPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\SecurityQuestion.Designer.vb">
+      <DependentUpon>SecurityQuestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login\SecurityQuestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\Account.Designer.vb">
+      <DependentUpon>Account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\Account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\DMenu.Designer.vb">
+      <DependentUpon>DMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\DMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\InventoryMenu.Designer.vb">
+      <DependentUpon>InventoryMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\InventoryMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\ProfileMenu.Designer.vb">
+      <DependentUpon>ProfileMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\ProfileMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\QuickSearch.Designer.vb">
+      <DependentUpon>QuickSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\QuickSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\ReportMenu.Designer.vb">
+      <DependentUpon>ReportMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\ReportMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\SearchQ.Designer.vb">
+      <DependentUpon>SearchQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\SearchQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\SettingMenu.Designer.vb">
+      <DependentUpon>SettingMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\SettingMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\StatisticsMenu.Designer.vb">
+      <DependentUpon>StatisticsMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\StatisticsMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\HealthCenterMain.Designer.vb">
+      <DependentUpon>HealthCenterMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\HealthCenterMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\HealthCenterSub.Designer.vb">
+      <DependentUpon>HealthCenterSub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\HealthCenterSub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Profiling\AddProfile.Designer.vb">
+      <DependentUpon>AddProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiling\AddProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiling\EditProfile.Designer.vb">
+      <DependentUpon>EditProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiling\EditProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiling\ViewDescription.Designer.vb">
+      <DependentUpon>ViewDescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiling\ViewDescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiling\ViewProfile.Designer.vb">
+      <DependentUpon>ViewProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiling\ViewProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ViewStocksCR.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ViewStocksCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ViewStocksReport.vb">
+      <DependentUpon>ViewStocksReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ViewStocksW.Designer.vb">
+      <DependentUpon>ViewStocksW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ViewStocksW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\CompanyName\AddBrand.Designer.vb">
+      <DependentUpon>AddBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\CompanyName\AddBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Brand\EditBrand.Designer.vb">
+      <DependentUpon>EditBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Brand\EditBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Brand\ViewBrand.Designer.vb">
+      <DependentUpon>ViewBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Brand\ViewBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\CompanyName\AddCompany.Designer.vb">
+      <DependentUpon>AddCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\CompanyName\AddCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\CompanyName\EditCompany.Designer.vb">
+      <DependentUpon>EditCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\CompanyName\EditCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\CompanyName\ViewCompany.Designer.vb">
+      <DependentUpon>ViewCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\CompanyName\ViewCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Lot Number\AddLotNumber.Designer.vb">
+      <DependentUpon>AddLotNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Lot Number\AddLotNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Lot Number\EditLotNumber.Designer.vb">
+      <DependentUpon>EditLotNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Lot Number\EditLotNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Lot Number\ViewLotNumber.Designer.vb">
+      <DependentUpon>ViewLotNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Lot Number\ViewLotNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Received\EditReceived.Designer.vb">
+      <DependentUpon>EditReceived.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Received\EditReceived.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Received\ReceivedFrom.Designer.vb">
+      <DependentUpon>ReceivedFrom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Received\ReceivedFrom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Received\ViewReceived.Designer.vb">
+      <DependentUpon>ViewReceived.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Received\ViewReceived.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Type\AddSubType.Designer.vb">
+      <DependentUpon>AddSubType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Type\AddSubType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Type\AddType.Designer.vb">
+      <DependentUpon>AddType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Type\AddType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Type\EditType.Designer.vb">
+      <DependentUpon>EditType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Type\EditType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\AddStock.Designer.vb">
+      <DependentUpon>AddStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\AddStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Stockin.Designer.vb">
+      <DependentUpon>Stockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Stockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Type\ViewType.Designer.vb">
+      <DependentUpon>ViewType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Type\ViewType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Unit\AddUnit.Designer.vb">
+      <DependentUpon>AddUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Unit\AddUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Unit\EditUnit.Designer.vb">
+      <DependentUpon>EditUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Unit\EditUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Unit\ViewUnit.Designer.vb">
+      <DependentUpon>ViewUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Unit\ViewUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics\Stat1.Designer.vb">
+      <DependentUpon>Stat1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\Stat1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics\Statistics.Designer.vb">
+      <DependentUpon>Statistics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\Statistics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\CrystalReport3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\DailyS.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\Expired.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Expired.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\IssuanceReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IssuanceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\MedicineProfille.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedicineProfille.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\NearExpiration.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NearExpiration.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\Released.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Released.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\StockinH.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockinH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\StockoutH.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockoutH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\DataSet\dsReport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tese\DataSet\dsReport.vb">
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\Expiry.Designer.vb">
+      <DependentUpon>Expiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\Expiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmDailyReleased.Designer.vb">
+      <DependentUpon>frmDailyReleased.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmDailyReleased.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmDailyStockin.Designer.vb">
+      <DependentUpon>frmDailyStockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmDailyStockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmExpired.Designer.vb">
+      <DependentUpon>frmExpired.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmExpired.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmissuance.Designer.vb">
+      <DependentUpon>frmissuance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmissuance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmprofile.Designer.vb">
+      <DependentUpon>frmprofile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmprofile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmstockinhistory.Designer.vb">
+      <DependentUpon>frmstockinhistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmstockinhistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmstockouthistory.Designer.vb">
+      <DependentUpon>frmstockouthistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmstockouthistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmtotalstockin.Designer.vb">
+      <DependentUpon>frmtotalstockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmtotalstockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\frmtotalstockout.Designer.vb">
+      <DependentUpon>frmtotalstockout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\frmtotalstockout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\Form\IR.Designer.vb">
+      <DependentUpon>IR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tese\Form\IR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tese\CrystalReport\TotalStockin.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TotalStockin.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tese\DataSet\TotalStockout.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TotalStockout.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\AccountLogs.Designer.vb">
+      <DependentUpon>AccountLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\AccountLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\AddUserAccount.Designer.vb">
+      <DependentUpon>AddUserAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\AddUserAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\EditUserAccount.Designer.vb">
+      <DependentUpon>EditUserAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\EditUserAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\ViewUsers.Designer.vb">
+      <DependentUpon>ViewUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\ViewUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ViewStocksReport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ViewStocksReport.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Inventory\AddStock2.resx">
+      <DependentUpon>AddStock2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Addstockdashboard.resx">
+      <DependentUpon>Addstockdashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\AddStockout.resx">
+      <DependentUpon>AddStockout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\DailyReleased.resx">
+      <DependentUpon>DailyReleased.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\DailyStockin.resx">
+      <DependentUpon>DailyStockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\MULTIPLE\Multiple Stockin.resx">
+      <DependentUpon>Multiple Stockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\MULTIPLE\Multiplesearch.resx">
+      <DependentUpon>Multiplesearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\SearchQuick.aa-ER.resx">
+      <DependentUpon>SearchQuick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\SearchQuick.resx">
+      <DependentUpon>SearchQuick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\StockHistory.resx">
+      <DependentUpon>StockHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\ViewExpiry.resx">
+      <DependentUpon>ViewExpiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issuance\ViewStocks.resx">
+      <DependentUpon>ViewStocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issuance\Issuance.vb.resx">
+      <DependentUpon>Issuance.vb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmconnection.resx">
+      <DependentUpon>frmconnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\SearchMed.resx">
+      <DependentUpon>SearchMed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\NewPassword.resx">
+      <DependentUpon>NewPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\SecurityQuestion.resx">
+      <DependentUpon>SecurityQuestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\Account.resx">
+      <DependentUpon>Account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\DMenu.resx">
+      <DependentUpon>DMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\InventoryMenu.resx">
+      <DependentUpon>InventoryMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\ProfileMenu.resx">
+      <DependentUpon>ProfileMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\QuickSearch.resx">
+      <DependentUpon>QuickSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\ReportMenu.resx">
+      <DependentUpon>ReportMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\SearchQ.resx">
+      <DependentUpon>SearchQ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\SettingMenu.resx">
+      <DependentUpon>SettingMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu\StatisticsMenu.resx">
+      <DependentUpon>StatisticsMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HealthCenterMain.resx">
+      <DependentUpon>HealthCenterMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HealthCenterSub.resx">
+      <DependentUpon>HealthCenterSub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiling\AddProfile.resx">
+      <DependentUpon>AddProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiling\EditProfile.resx">
+      <DependentUpon>EditProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiling\ViewDescription.resx">
+      <DependentUpon>ViewDescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiling\ViewProfile.resx">
+      <DependentUpon>ViewProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\AddStock.resx">
+      <DependentUpon>AddStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Stockin.resx">
+      <DependentUpon>Stockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ViewStocksCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ViewStocksCR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ViewStocksW.resx">
+      <DependentUpon>ViewStocksW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\CompanyName\AddBrand.resx">
+      <DependentUpon>AddBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Brand\EditBrand.resx">
+      <DependentUpon>EditBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Brand\ViewBrand.resx">
+      <DependentUpon>ViewBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\CompanyName\AddCompany.resx">
+      <DependentUpon>AddCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\CompanyName\EditCompany.resx">
+      <DependentUpon>EditCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\CompanyName\ViewCompany.resx">
+      <DependentUpon>ViewCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Lot Number\AddLotNumber.resx">
+      <DependentUpon>AddLotNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Lot Number\EditLotNumber.resx">
+      <DependentUpon>EditLotNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Lot Number\ViewLotNumber.resx">
+      <DependentUpon>ViewLotNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Received\EditReceived.resx">
+      <DependentUpon>EditReceived.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Received\ReceivedFrom.resx">
+      <DependentUpon>ReceivedFrom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Received\ViewReceived.resx">
+      <DependentUpon>ViewReceived.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Type\AddSubType.resx">
+      <DependentUpon>AddSubType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Type\AddType.resx">
+      <DependentUpon>AddType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Type\EditType.resx">
+      <DependentUpon>EditType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Type\ViewType.resx">
+      <DependentUpon>ViewType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Unit\AddUnit.resx">
+      <DependentUpon>AddUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Unit\EditUnit.resx">
+      <DependentUpon>EditUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\Unit\ViewUnit.resx">
+      <DependentUpon>ViewUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics\Stat1.resx">
+      <DependentUpon>Stat1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics\Statistics.resx">
+      <DependentUpon>Statistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\DailyS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DailyS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\Expired.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Expired.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\IssuanceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IssuanceReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\MedicineProfille.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MedicineProfille.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\NearExpiration.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NearExpiration.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\Released.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Released.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\StockinH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockinH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\StockoutH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockoutH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\Expiry.resx">
+      <DependentUpon>Expiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmDailyReleased.resx">
+      <DependentUpon>frmDailyReleased.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmDailyStockin.resx">
+      <DependentUpon>frmDailyStockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmExpired.resx">
+      <DependentUpon>frmExpired.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmissuance.resx">
+      <DependentUpon>frmissuance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmprofile.resx">
+      <DependentUpon>frmprofile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmstockinhistory.resx">
+      <DependentUpon>frmstockinhistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmstockouthistory.resx">
+      <DependentUpon>frmstockouthistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmtotalstockin.resx">
+      <DependentUpon>frmtotalstockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\frmtotalstockout.resx">
+      <DependentUpon>frmtotalstockout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\Form\IR.resx">
+      <DependentUpon>IR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\CrystalReport\TotalStockin.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TotalStockin.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tese\DataSet\TotalStockout.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TotalStockout.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\AccountLogs.resx">
+      <DependentUpon>AccountLogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\AddUserAccount.resx">
+      <DependentUpon>AddUserAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\EditUserAccount.resx">
+      <DependentUpon>EditUserAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\ViewUsers.resx">
+      <DependentUpon>ViewUsers.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Health Center Profiling System_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="tese\DataSet\dsReport.xsc">
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </None>
+    <None Include="tese\DataSet\dsReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="tese\DataSet\dsReport.xss">
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </None>
+    <None Include="User\App.config" />
+    <None Include="Reports\ViewStocksReport.xsc">
+      <DependentUpon>ViewStocksReport.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ViewStocksReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ViewStocksReport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Reports\ViewStocksReport.xss">
+      <DependentUpon>ViewStocksReport.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
